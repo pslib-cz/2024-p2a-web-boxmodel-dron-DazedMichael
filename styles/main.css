@@ -45,7 +45,21 @@
     background-image: url(../images/header-2560w.webp);
     background-size: cover;
     background-position: top
+
     
+    
+
+   }
+   .picturebox {
+    margin: 0em;
+   }
+
+   .picture-box__caption{
+    font-size: 0.8em;
+    color:var(--gray, grey);
+    text-align: center;
+    margin-top: 0.75em;
+
 
    }
    .page__logo-container{
@@ -53,12 +67,48 @@
     text-align: center;
    }
    .page__logo{
-    display: inline-block;
+    display: block;
     padding: 1em;
+    height: 2em;
+    aspect-ratio: 42 / 24;
    
    }
    .page__intro{
     color: var(--light)
    }
+
+   .button {
+    display: inline-block;
+    background-color: var(--primary, teal);
+    color: var(--light, white);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 1em;
+   }
+
+    .button--light {
+        background-color: var(--light, white);
+        color: var(--black, black)
+    }
+
+    .button:hover {
+        background-color: var(--black, black);
+        color: var(--light, white);
+        text-decoration: underline;
+    }
+    
+    .outline-box {
+        border: 3px solid var(--primary, aqua);
+        margin: 1em ;
+        
+
+    }
+    .text-h3 {
+        
+    }
+    
+
+   }
    
-}
